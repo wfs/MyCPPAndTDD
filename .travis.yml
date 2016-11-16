@@ -27,4 +27,5 @@ script:
 after_success:
   - cd -
   - cd Line/CMakeFiles/Line.dir
+  - lcov --compat-libtool --directory . --capture --output-file coverage.info
   - coveralls-lcov coverage.info
