@@ -20,7 +20,6 @@ before_install:
   - pip install --user cpp-coveralls
 
 script:
-  - make check
   - mkdir build
   - cd build
   - cmake ..
