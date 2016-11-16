@@ -27,4 +27,4 @@ script:
 after_success:
   - cd -
   - cd Line/CMakeFiles/Line.dir
-  - coveralls
+  - coveralls-lcov coverage.info
